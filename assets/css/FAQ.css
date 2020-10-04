@@ -1,0 +1,122 @@
+:root {
+  --color-white: #ffffff;
+  --color-brown: #5d311a;
+  --color-black: #000000;
+  --color-grey: #707070;
+  --color-light-grey: #f5f5f5;
+}
+.faq {
+  display: grid;
+  grid-template-columns: 314px 1fr 314px;
+  font-family: Raleway, regular;
+}
+.faq > * {
+  grid-column: 2;
+}
+.faq h1{
+    text-align: center;
+    color: var(--color-brown);
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.faq-flex {
+  display: grid;
+  grid-template-columns: 1fr 57px;
+}
+.faq-flex p {
+  vertical-align: middle;
+  font-size: 29px;
+  text-align: left;
+  color: var(--color-brown);
+  grid-column: 1/2;
+  margin-top: 2.5px;
+  margin-bottom: 0px !important;
+}
+.faquestion {
+  border: 3px solid var(--color-brown);
+  border-radius: 20px;
+  width: auto;
+  padding: 1.5%;
+  margin-top: 1.8%;
+}
+
+.faq-btn {
+  border-radius: 50% !important;
+  height: 47px;
+  width: 47px;
+  border: 3px solid var(--color-brown);
+  vertical-align: middle;
+  grid-column: 2/3;
+}
+.faq-btn:hover {
+  background-color: var(--color-brown);
+}
+.faq-btn:active{
+  background-color: var(--color-brown);
+}
+.collapse {
+  grid-column: 1/2;
+  margin-top: 15px;
+  border: 0px !important;
+  font-size: 22px;
+  text-align: left;
+}
+@media screen and (max-width: 990px) {
+  .faq {
+    grid-template-columns: 24px 1fr 24px;
+  }
+  .collapse {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  .faq-flex p{
+      font-size: 40px;
+      margin-top: 2px;
+  }
+  .faq-btn{
+      margin-top: 10%;
+  }
+}
+.headings::before{
+   content: "<";
+}
+.headings::after{
+    content: "/>";
+ }
+
+
+
+
+ .timeline{
+    display: grid;
+    grid-template-columns: 314px 1fr 314px ;
+    margin-top: 5%;
+ }
+ .timeline > .time{
+    grid-column: 2/3;
+ }
+.time h1{
+  text-align: center;
+  color: var(--color-brown);
+  font-size: 80px;
+}
+.time p{
+  text-align: center;
+  color: var(--color-brown);
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+.time img{
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 990px) {
+  .timeline {
+    grid-template-columns: 24px 1fr 24px;
+  }
+  .time img{
+    margin-left: 5%;
+  }
+ }

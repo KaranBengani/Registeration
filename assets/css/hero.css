@@ -1,0 +1,16 @@
+:root {
+    --color-brown: #5d311a;
+    --color-black: #000000;
+    --color-grey: #707070;
+    --color-light-grey: #f5f5f5;
+    --color-cream:#f9f4df;
+  }
+
+
+
+
+
+
+body{
+  background-color: green;
+}
