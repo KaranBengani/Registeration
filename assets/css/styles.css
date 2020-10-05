@@ -500,22 +500,22 @@
   .coding {
     height: 15vh;
     width: 15vh;
-    transform: scale(0.9) translate(280%, -74%) !important;
+    transform: scale(0.9) translate(160%, -34%) !important;
   }
   .algo {
     height: 15vh;
     width: 15vh;
-    transform: scale(0.9) translate(60%, -394%) !important;
+    transform: scale(0.9) translate(40%, -394%) !important;
   }
   .stack {
     height: 15vh;
     width: 15vh;
-    transform: scale(0.9) translate(-40%, -655%) !important;
+    transform: scale(0.9) translate(140%, -855%) !important;
   }
   .qr {
     height: 15vh;
     width: 15vh;
-    transform: scale(0.9) translate(-120%, -104%) !important;
+    transform: scale(0.9) translate(-170%, -104%) !important;
   }
   .bgcont{
     transform:  translateY(-14%)!important;
